@@ -3,12 +3,14 @@ import posts from "./tuits.js";
 let tuits = posts;
 
 const templateTuit = {
-    "topic": "",
-    "time": "Now",
-    "liked": false,
-    "replies": 0,
-    "retuits": 0,
-    "likes": 0,
+  "topic": "",
+  "time": "Now",
+  "liked": false,
+  "disliked": false,
+  "replies": 0,
+  "retuits": 0,
+  "likes": 0,
+  "dislikes": 0
 }
 
 const createTuit = (req, res) => {
